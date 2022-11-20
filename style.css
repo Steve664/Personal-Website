@@ -10,7 +10,6 @@ body {
     line-height: 28px;
     font-weight: 400;
   }
-  
 ul {
   list-style-type: none;
   margin: 0;
@@ -37,6 +36,9 @@ a {
     
    padding: 3px;
     
+}
+#navbar {
+    position: fixed;
 }
 #Contact a {
     color: white;
