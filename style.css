@@ -4,7 +4,7 @@ header {
     top: 0px;
     width: 100%;
     justify-content: space-between;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #1a1b1f;
     background-color: white;
 }
 
@@ -26,17 +26,20 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: red;
+    color: #1a1b1f;
 }
 
 nav a:hover {
     text-decoration: underline;
+    color: hotpink;
 }
 
 body {
     font-size: 1.1rem;
     font-family: 'Courier New', Courier, monospace;
-    background-color: #fdecc9;
+    background-color: #eeeff1;
+    margin: 0;
+    padding: 0;
 }
 
 #content {
@@ -54,7 +57,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid #1a1b1f;
 }
 
 .article {
@@ -102,7 +105,7 @@ body {
     align-items: center;
     text-align: center;
     height: 200px;
-    border-top: 3px solid red;
+    border-top: 3px solid #1a1b1f;
     padding: 20px;
 }
 
@@ -155,7 +158,8 @@ input[type='submit']:hover {
     padding: 20px;
     display: flex;
     justify-content: center;
-    border-bottom: 3px solid red;
-    border-top: 3px solid red;
+    border-bottom: 3px solid #1a1b1f;
+    border-top: 3px solid #1a1b1f;
     background-color: white;
+    
 }
